@@ -1,0 +1,33 @@
+.navbar {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  border: 0.1em solid #ffffff;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu > li {
+  color: white;
+  cursor: pointer;
+  padding-bottom: 0.5em;
+  font-weight: 600;
+}
