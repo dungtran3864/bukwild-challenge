@@ -1,19 +1,15 @@
 import "./Headline.css";
 
-function Headline() {
+function Headline(props) {
+  const { headline, subhead } = props;
+
   return (
     <div className={"headline-container"}>
       <div className={"headline"}>
-        <text>
-          Maecenas sed diam eget risus varius blandit sit amet non magna
-        </text>
+        <text>{headline}</text>
       </div>
       <div className={"subhead"}>
-        <text>
-          Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis
-          consectetur purus sit amet fermentum. Vestibulum id ligula porta felis
-          euismod semper.
-        </text>
+        <text>{subhead}</text>
       </div>
     </div>
   );

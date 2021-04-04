@@ -1,11 +1,13 @@
 import "./CTA.css";
 import left_arrow from "./../resources/icons8-right_arrow.png";
 
-function CTA() {
+function CTA(props) {
+  const { cta } = props;
+
   return (
     <div className={"cta-container"}>
       <div className={"sub-cta"}>
-        <text>Nemo enim ipsam voluptatem quia voluptas.</text>
+        <text>{cta}</text>
       </div>
       <div className={"sub-action"}>
         <text>Let's talk</text>

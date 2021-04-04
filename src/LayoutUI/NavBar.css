@@ -8,17 +8,26 @@
   width: 100%;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 .contact {
   display: inline-block;
   padding: 0.5em 1.5em;
   border: 0.1em solid #ffffff;
   box-sizing: border-box;
   text-decoration: none;
+  color: white;
   font-weight: 600;
-  color: #ffffff;
   text-align: center;
   background-color: transparent;
   cursor: pointer;
+}
+
+.contact:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .menu {
@@ -29,7 +38,6 @@
 }
 
 .menu > li {
-  color: white;
   cursor: pointer;
   padding-bottom: 0.5em;
   font-weight: 600;
