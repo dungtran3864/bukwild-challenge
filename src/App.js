@@ -15,15 +15,29 @@ function App() {
   );
   const [pages, setPages] = useState([]);
 
+  /**
+   * Load JSON content
+   */
   useEffect(() => {
     setPages(JSONContent.pages);
   }, []);
 
+  /**
+   * Change the current menu page
+   *
+   * @param menuIndex
+   */
   function changeMenu(menuIndex) {
     setMenuIndex(menuIndex);
     switchBackgroundImage(menuIndex);
   }
 
+  /**
+   * Change the background image when a menu item is clicked
+   *
+   * @param menuIndex
+   * @returns {null}
+   */
   function switchBackgroundImage(menuIndex) {
     if (pages[menuIndex] && pages[menuIndex].blocks[0]) {
       switch (pages[menuIndex].blocks[0].background) {

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 2em;
+  padding-top: 2rem;
   max-width: 1440px;
   width: 100%;
 }
@@ -14,8 +14,8 @@
 
 .contact {
   display: inline-block;
-  padding: 0.5em 1.5em;
-  border: 0.1em solid #ffffff;
+  padding: 0.5rem 1.5rem;
+  border: 0.1rem solid #ffffff;
   box-sizing: border-box;
   text-decoration: none;
   color: white;
@@ -38,7 +38,11 @@
 }
 
 .menu > li {
+  padding-bottom: 0.5rem;
+}
+
+.menu > li > a {
   cursor: pointer;
-  padding-bottom: 0.5em;
   font-weight: 600;
+  text-decoration: none;
 }

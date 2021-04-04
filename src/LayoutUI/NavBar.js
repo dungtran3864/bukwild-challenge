@@ -15,13 +15,16 @@ function NavBar(props) {
         />
         <ul className={"menu"}>
           {pages.map((page, pageIndex) => (
-            <li
-              key={pageIndex}
-              style={{
-                color: pageIndex === currentMenuIndex ? "#ffc004" : "white",
-              }}
-            >
-              <a onClick={() => changeMenu(pageIndex)}>{page.title}</a>
+            <li key={pageIndex}>
+              <a
+                href="#"
+                style={{
+                  color: pageIndex === currentMenuIndex ? "#ffc004" : "white",
+                }}
+                onClick={() => changeMenu(pageIndex)}
+              >
+                {page.title}
+              </a>
             </li>
           ))}
         </ul>

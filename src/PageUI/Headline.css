@@ -13,12 +13,12 @@
 
 .headline {
   padding-right: 5rem;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 .subhead {
-  font-size: 1em;
+  font-size: 1rem;
   padding: 1rem 5rem 0 15rem;
 }
 
@@ -36,12 +36,12 @@
 
   .headline {
     padding-right: 0;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 600;
   }
 
   .subhead {
-    font-size: 1em;
+    font-size: 1rem;
     padding: 1rem 0;
   }
 }

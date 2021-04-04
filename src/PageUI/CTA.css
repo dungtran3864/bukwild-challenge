@@ -10,32 +10,32 @@
 .sub-cta,
 .sub-action {
   width: 50%;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .sub-cta {
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .sub-action {
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-right: 10em;
+  padding-right: 10rem;
   cursor: pointer;
 }
 
 .left-arrow {
-  padding-left: 0.5em;
+  padding-left: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
