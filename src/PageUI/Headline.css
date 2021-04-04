@@ -1,6 +1,8 @@
 .headline-container {
   display: flex;
   flex-direction: row;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .headline,

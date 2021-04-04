@@ -4,12 +4,15 @@ function Headline() {
   return (
     <div className={"headline-container"}>
       <div className={"headline"}>
-        <text>Industries</text>
+        <text>
+          Maecenas sed diam eget risus varius blandit sit amet non magna
+        </text>
       </div>
       <div className={"subhead"}>
         <text>
-          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
-          nibh, ut fermentum massa justo sit amet risus.
+          Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis
+          consectetur purus sit amet fermentum. Vestibulum id ligula porta felis
+          euismod semper.
         </text>
       </div>
     </div>
