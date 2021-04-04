@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bukwild-challenge/static/css/main.9dc72a2e.chunk.css",
+    "main.js": "/bukwild-challenge/static/js/main.632d91ad.chunk.js",
+    "main.js.map": "/bukwild-challenge/static/js/main.632d91ad.chunk.js.map",
+    "runtime-main.js": "/bukwild-challenge/static/js/runtime-main.821a5b10.js",
+    "runtime-main.js.map": "/bukwild-challenge/static/js/runtime-main.821a5b10.js.map",
+    "static/js/2.7840e97c.chunk.js": "/bukwild-challenge/static/js/2.7840e97c.chunk.js",
+    "static/js/2.7840e97c.chunk.js.map": "/bukwild-challenge/static/js/2.7840e97c.chunk.js.map",
+    "static/js/3.8388bf9c.chunk.js": "/bukwild-challenge/static/js/3.8388bf9c.chunk.js",
+    "static/js/3.8388bf9c.chunk.js.map": "/bukwild-challenge/static/js/3.8388bf9c.chunk.js.map",
+    "index.html": "/bukwild-challenge/index.html",
+    "static/css/main.9dc72a2e.chunk.css.map": "/bukwild-challenge/static/css/main.9dc72a2e.chunk.css.map",
+    "static/js/2.7840e97c.chunk.js.LICENSE.txt": "/bukwild-challenge/static/js/2.7840e97c.chunk.js.LICENSE.txt",
+    "static/media/abc_logo.c72ca4e0.svg": "/bukwild-challenge/static/media/abc_logo.c72ca4e0.svg",
+    "static/media/slide_one.df407357.jpg": "/bukwild-challenge/static/media/slide_one.df407357.jpg",
+    "static/media/slide_three.25c6c4ee.jpg": "/bukwild-challenge/static/media/slide_three.25c6c4ee.jpg",
+    "static/media/slide_two.b7b871cc.jpg": "/bukwild-challenge/static/media/slide_two.b7b871cc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.821a5b10.js",
+    "static/js/2.7840e97c.chunk.js",
+    "static/css/main.9dc72a2e.chunk.css",
+    "static/js/main.632d91ad.chunk.js"
+  ]
+}
