@@ -1,6 +1,9 @@
 .container {
   background-color: gray;
-  min-height: 100vh;
   padding-right: 5rem;
   padding-left: 5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

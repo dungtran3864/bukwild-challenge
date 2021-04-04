@@ -1,7 +1,7 @@
-import logo from "./resources/abc_logo.svg";
-import "./Header.css";
+import logo from "../resources/abc_logo.svg";
+import "./NavBar.css";
 
-function Header() {
+function NavBar() {
   return (
     <nav className="navbar">
       <div>
@@ -23,4 +23,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;

@@ -1,0 +1,47 @@
+.cta-container {
+  background-color: white;
+  padding: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sub-cta,
+.sub-action {
+  width: 50%;
+}
+
+.sub-cta {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.sub-action {
+  font-weight: 500;
+  font-size: 1em;
+  padding-left: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-arrow {
+  padding-left: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .cta-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sub-cta,
+  .sub-action {
+    width: 100%;
+  }
+
+  .sub-action {
+    padding: 1rem 0;
+  }
+}

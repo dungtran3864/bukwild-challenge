@@ -1,0 +1,44 @@
+.headline-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.headline,
+.subhead {
+  width: 50%;
+}
+
+.headline {
+  padding-right: 5rem;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.subhead {
+  font-size: 1em;
+  padding: 1rem 5rem 0 15rem;
+}
+
+@media screen and (max-width: 768px) {
+  .headline-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .headline,
+  .subhead {
+    width: 100%;
+  }
+
+  .headline {
+    padding-right: 0;
+    font-size: 3em;
+    font-weight: 600;
+  }
+
+  .subhead {
+    font-size: 1em;
+    padding: 1rem 0;
+  }
+}

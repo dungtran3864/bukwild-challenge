@@ -1,10 +1,14 @@
 import "./App.css";
-import Header from "./Header";
+import NavBar from "./LayoutUI/NavBar";
+import Headline from "./PageUI/Headline";
+import CTA from "./PageUI/CTA";
 
 function App() {
   return (
     <div className="container">
-      <Header />
+      <NavBar />
+      <Headline />
+      <CTA />
     </div>
   );
 }
